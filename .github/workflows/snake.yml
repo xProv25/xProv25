@@ -1,0 +1,34 @@
+name: Generate GitHub Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake (dark)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: xProv25
+          outputs: |
+            dist/github-snake-dark.svg?palette=github-dark
+      - name: Generate snake (light)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: xProv25
+          outputs: |
+            dist/github-snake-light.svg?palette=github-light
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/*.svg
+          git commit -m "chore: regenerate contribution snake" || echo "No changes to commit"
+          git push
