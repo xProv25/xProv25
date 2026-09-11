@@ -1,8 +1,5 @@
 ﻿<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./header.dark.svg?v4">
-    <img width="100%" src="./header.light.svg?v4" alt="xProv25 — Independent Software Developer">
-  </picture>
+  <img width="100%" src="./header.light.svg?v5" alt="xProv25 — Independent Software Developer" />
 </p>
 
 <p align="center">
@@ -61,10 +58,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg?v4">
-    <img width="100%" src="./dist/github-snake-light.svg?v4" alt="GitHub contribution snake" />
-  </picture>
+  <img width="100%" src="./dist/github-snake-light.svg?v5" alt="GitHub contribution snake" />
 </p>
 <p align="center"><sub>it eats your contribution grid. regenerated every 12 hours.</sub></p>
 
