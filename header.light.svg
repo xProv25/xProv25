@@ -1,39 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="xProv25 — Independent Software Developer">
-  <defs>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="10" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="xProv25 — Independent Software Developer">
+  <rect width="1200" height="200" fill="#ffeaf4"/>
 
-  <rect width="1200" height="240" fill="#ffeaf4"/>
-
-  <g opacity="0.75">
-    <circle r="150" fill="#ffffff">
-      <animate attributeName="cy" values="40;120;40" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="cx" values="60;140;60" dur="13s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="110" fill="#ffc9e2">
-      <animate attributeName="cx" values="1140;1030;1140" dur="11s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="200;120;200" dur="15s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="70" fill="#ffffff">
-      <animate attributeName="cx" values="600;660;600" dur="17s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="20;70;20" dur="12s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <text x="600" y="118" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-size="78" font-weight="700" letter-spacing="-2" fill="#b91d63" filter="url(#glow)">
-    <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
+  <text x="600" y="112" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-size="74" font-weight="700" letter-spacing="-2" fill="#b91d63">
+    <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="3.6s" repeatCount="indefinite"/>
     xProv<tspan fill="#ffffff" style="fill:#ffffff">25</tspan>
   </text>
 
-  <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-size="21" letter-spacing="11" fill="#d06a9d">INDEPENDENT SOFTWARE DEVELOPER</text>
+  <text x="600" y="166" text-anchor="middle" font-family="'Segoe UI', Verdana, sans-serif" font-size="20" letter-spacing="10" fill="#d06a9d">INDEPENDENT SOFTWARE DEVELOPER</text>
 
-  <circle cx="1030" cy="118" r="5" fill="#ec4899">
-    <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
+  <rect x="540" y="182" width="120" height="4" rx="2" fill="#ec4899">
+    <animate attributeName="width" values="0;120;0" dur="5s" repeatCount="indefinite"/>
+  </rect>
 </svg>
