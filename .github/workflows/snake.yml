@@ -20,13 +20,13 @@ jobs:
         with:
           github_user_name: xProv25
           outputs: |
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?color_snake=#f472b6&color_dots=#1d0f1c,#361531,#4e163f,#6c1b4e,#b0427e
       - name: Generate snake (light)
         uses: Platane/snk@v3
         with:
           github_user_name: xProv25
           outputs: |
-            dist/github-snake-light.svg?palette=github-light
+            dist/github-snake-light.svg?color_snake=#d63384&color_dots=#fdf0f6,#fbd7e9,#f7b7d6,#f28cc0,#e75aa5
 
       - name: Commit & push
         run: |
