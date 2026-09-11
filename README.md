@@ -17,6 +17,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Python" />
+  <img src="https://img.shields.io/badge/C-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="C#" />
   <img src="https://img.shields.io/badge/JavaScript-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Phaser-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Phaser" />
   <img src="https://img.shields.io/badge/HTML-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="HTML" />
@@ -26,6 +30,7 @@
   <img src="https://img.shields.io/badge/Fabric-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Fabric" />
   <img src="https://img.shields.io/badge/Forge-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Forge" />
   <img src="https://img.shields.io/badge/Git-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Git" />
+  <img src="https://img.shields.io/badge/MySQL-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="MySQL" />
 </p>
 
 ## 📂 Projects
