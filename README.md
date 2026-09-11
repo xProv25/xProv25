@@ -13,8 +13,6 @@
   <img src="https://komarev.com/ghpvc/?username=xProv25&style=for-the-badge&color=ec4899&label=Profile+Views" alt="Profile views" />
 </p>
 
----
-
 ## 🛠️ Tech Stack
 
 <p align="center">
@@ -30,8 +28,6 @@
   <img src="https://img.shields.io/badge/Git-ec4899?style=for-the-badge&labelColor=ffeaf4" alt="Git" />
 </p>
 
----
-
 ## 📂 Projects
 
 | Project | What it is | Stack |
@@ -39,8 +35,6 @@
 | **⚔️ HollowCombatLog** · [open ↗](https://github.com/xProv25/HollowCombatLog) | Combat logging plugin for Minecraft servers | Java · Paper |
 | **👀 spawnerdetectaddon** · [open ↗](https://github.com/xProv25/spawnerdetectaddon) | Spawner detection with custom rules | Java · Bukkit |
 | **🚀 ninni-launcher** · [open ↗](https://github.com/xProv25/ninni-launcher) | Custom launcher: updates & quick launch | App · Tools |
-
----
 
 ## 📊 GitHub Analytics
 
@@ -53,16 +47,12 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=xProv25&theme=transparent&hide_border=true&stroke=ec4899&ring=ec4899&fire=ec4899&currStreakLabel=ec4899&currStreakNum=ec4899&sideNums=ec4899&sideLabels=a76d8b&dates=a76d8b" alt="GitHub Streak" />
 </p>
 
----
-
 ## 🐍 Contribution Snake
 
 <p align="center">
   <img width="100%" src="./dist/github-snake-light.svg?v5" alt="GitHub contribution snake" />
 </p>
 <p align="center"><sub>it eats your contribution grid. regenerated every 12 hours.</sub></p>
-
----
 
 <p align="center">
   <i>🔥 Currently building: plugins, mods and the occasional side-quest.</i>
